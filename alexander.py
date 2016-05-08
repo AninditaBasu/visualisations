@@ -24,14 +24,14 @@ for item in routepoints:
         try:
             location = geolocator.geocode(item[1])
             lat = location.latitude
-            long = location.longitude
+            lng = location.longitude
         except:
             lat = ""
-            long = ""
+            lng = ""
         templist.append(item[0])
         templist.append(item[1])
         templist.append(lat)
-        templist.append(long)
+        templist.append(lng)
         routecoords.append(templist)
         templist = []
 print routecoords
