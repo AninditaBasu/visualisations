@@ -85,18 +85,25 @@ for word in words:
 print text
 text = text.encode('utf-8') # for non-English characters
 
-#######################
+# write the output to a file, for use later
+tweets_text_file = open('./data/tweets_text.txt', 'w')
+tweets_text_file.write(text)
+tweets_text_file.close()
+
+# The remaining part of the code can be commented out if a word cloud
+# is not needed. 
+
+# ######################
 # This part of the script uses the wordcloud library
 # Installation is through pip
 # library is at https://github.com/amueller/word_cloud
 # Dependies for wordcloud are two: (1) matplotlib (2) Pillow
-# (matplotlib needs Pillow to work, since no PIL)
+# (matplotlib needs Pillow to work)
 # Both matplotlib and Pillow can be pip installed
-#######################
+# ######################
 
 from wordcloud import WordCloud
 wordcloud = WordCloud().generate(text)
-
 # added this code from http://matplotlib.org/faq/howto_faq.html#generate-images-without-having-a-window-appear
 # so that the generated figure can be saved as well
 import matplotlib
