@@ -1,4 +1,4 @@
-# libraries used: csv, geopy, ...
+# libraries used: csv, geopy
 
 # read the data from file and write to a list
 import csv
@@ -50,10 +50,10 @@ with open("./data/alexander_coord.csv", "wb") as f:
     for item in routecoords:
         writer.writerow(item)
 
-# find the min and max latitude and longitude, to define a map area
 
-
-# this plot works for the time being
+# this remainder of the code generates a scatter plot
+# that has no background map image
+# 
 #
 # to be improved. pull data from csv
 #
