@@ -1,0 +1,201 @@
+MB_place_name,MB_purpose,new_place_name,place_notes,place_latitude,place_longitude,event_ID,event_date
+Indraprastha,Armoury incident exile,New Delhi,,28.6138967,77.2159562,1,01/01/00
+Towards Haridwar,Armoury incident exile,Shamli,,29.4483494,77.3087719,2,31/01/00
+Towards Haridwar,Armoury incident exile,Deoband,,29.6934924,77.6779885,3,01/03/00
+Towards Haridwar,Armoury incident exile,Roorkee,,29.8693989,77.889674,4,31/03/00
+Gangadwar,Armoury incident exile,Haridwar,,29.9048547,77.9931330151,5,30/04/00
+Towards Himvant,Armoury incident exile,Rishikesh,Haridwar > Gangotri route modern,30.1078741,78.3023052,6,30/05/00
+Towards Himvant,Armoury incident exile,New Tehri,,30.37445,78.43277,7,29/06/00
+Towards Himvant,Armoury incident exile,Uttarkashi,,30.966485,78.6289831197,8,29/07/00
+Towards Himvant,Armoury incident exile,Bhatwari,,30.81116,78.61954,9,28/08/00
+Towards Himvant,Armoury incident exile,Harsil,,31.0389691,78.7493824,10,27/09/00
+Towards Himvant,Armoury incident exile,Bhaironghati,,31.0275315,78.8682105,11,27/10/00
+Towards Himvant,Armoury incident exile,,,,,12,26/11/00
+Agastyavat,Armoury incident exile,,,,,13,26/12/00
+Vashishthaparvat,Armoury incident exile,,,,,14,25/01/01
+Bhrigutunga,Armoury incident exile,Gangotri,,30.9943684,78.9398699,15,24/02/01
+Hiranyavindu,Armoury incident exile,Bhaironghati,Gangotri > Haridwar route modern,31.0275315,78.8682105,16,26/03/01
+Descent towards east,Armoury incident exile,Harsil,,31.0389691,78.7493824,17,25/04/01
+Descent towards east,Armoury incident exile,Bhatwari,,30.81116,78.61954,18,25/05/01
+Descent towards east,Armoury incident exile,Uttarkashi,,30.966485,78.6289831197,19,24/06/01
+Descent towards east,Armoury incident exile,New Tehri,,30.37445,78.43277,20,24/07/01
+Descent towards east,Armoury incident exile,Rishikesh,,30.1078741,78.3023052,21,23/08/01
+Descent towards east,Armoury incident exile,Haridwar,,29.9048547,77.9931330151,22,22/09/01
+Course of Gomti,Armoury incident exile,Pilibhit,,28.5001417,80.0746146674,23,22/10/01
+Naimisharanya,Armoury incident exile,Sitapur,,27.5120034,80.8244071826,24,21/11/01
+Gomti joins Ganga,Armoury incident exile,Ghazipur,,25.60240545,83.4987580024,25,21/12/01
+Ganga,Armoury incident exile,Patna,,25.609575,85.1238191,26,20/01/02
+Kaushiki,Armoury incident exile,Kursela,,25.4491525,87.2558585,27,19/02/02
+Vanga,Armoury incident exile,Dildarnagar,,25.4196587,83.6713697,28,21/03/02
+Towards the ocean,Armoury incident exile,Farakka,,24.7868983,87.9099061,29,20/04/02
+Towards the ocean,Armoury incident exile,Nabadwip,,23.4086684,88.3657991,30,20/05/02
+Towards the ocean,Armoury incident exile,Kakdwip,,21.8791446,88.1912992,31,19/06/02
+Kalinga,Armoury incident exile,Digha,,21.6243327,87.5095176,32,19/07/02
+Mahendra mountain,Armoury incident exile,Gajapati,,19.1889841,84.1854923947,33,18/08/02
+Manipura,Armoury incident exile,Kendrapara,,20.5042089,86.4159937,34,17/09/02
+Eastern sea coast,Armoury incident exile,Balasore,,21.5017098,86.9216712,35,17/10/02
+Eastern sea coast,Armoury incident exile,Puri,,19.8076083,85.8252538,36,16/11/02
+Eastern sea coast,Armoury incident exile,Berhampur,,19.2951792,84.8815442723,37,16/12/02
+Gokarna,Armoury incident exile,Nizampatnam,"Guntur, Andhra Pradesh",15.8828715,80.6390477,38,15/01/03
+Godavari course,Armoury incident exile,Rajahmundry,,17.0050454,81.7804732,39,14/02/03
+Godavari course,Armoury incident exile,Bhadrachalam,,17.6688019,80.8940083,40,16/03/03
+Godavari course,Armoury incident exile,Nanded,,19.09398365,77.4734700838,41,15/04/03
+Godavari course,Armoury incident exile,Nashik,,20.2217236,74.1136047895,42,15/05/03
+Western sea coast,Armoury incident exile,Surat,,21.1864607,72.8081281,43,14/06/03
+Western sea coast,Armoury incident exile,Bharuch,,21.7080427,72.9956936,44,14/07/03
+Western sea coast,Armoury incident exile,Vadodara,,22.3177543,73.3625409447,45,13/08/03
+Western sea coast,Armoury incident exile,Bhavnagar,,21.666667,71.833333,46,12/09/03
+Prabhas,Armoury incident exile,Veraval,,20.9057,70.3781,47,12/10/03
+Raivatak mountain,Armoury incident exile,Junagadh,,21.5174107,70.4642757,48,11/11/03
+Dwarka,Armoury incident exile,Dwarka,,22.2471009,68.9742446,49,11/12/03
+Towards Pushkar,Armoury incident exile,Jamnagar,Dwarka > Pushkar modern route,22.4732415,70.0552244,50,10/01/04
+Towards Pushkar,Armoury incident exile,Palanpur,,24.1709794,72.4366375,51,09/02/04
+Towards Pushkar,Armoury incident exile,Mount Abu,,24.592433,72.7081876,52,10/03/04
+Pushkar,Armoury incident exile,Pushkar,,26.4876472,74.5578484,53,09/04/04
+Back to Indraprastha,Armoury incident exile,Kishangarh,Pushkar > Delhi modern route,27.1597154,75.3593637,54,09/05/04
+Back to Indraprastha,Armoury incident exile,Jaipur,,26.9161293,75.8204056,55,08/06/04
+Back to Indraprastha,Armoury incident exile,Neemrana,,27.9921616,76.3856561,56,08/07/04
+Back to Indraprastha,Armoury incident exile,Rewari,,28.20153705,76.552603516,57,07/08/04
+Indraprastha,Armoury incident exile,New Delhi,,28.6138967,77.2159562,58,06/09/04
+Indraprastha,Eliminate Jarasandha,New Delhi,,28.6138967,77.2159562,59,06/10/04
+Kalkuta hills,Eliminate Jarasandha,Kalagarh,,29.477367,78.785127,60,05/11/04
+Eastern Kosal,Eliminate Jarasandha,Sravasti,,27.5083429,82.0263569,61,05/12/04
+Mithila,Eliminate Jarasandha,Mithila,,23.01444605,72.5433361541,62,04/01/05
+Gandak-Ganges confluence,Eliminate Jarasandha,Patna,,25.609575,85.1238191,63,03/02/05
+Girivraj,Eliminate Jarasandha,Rajgir,,25.0306,85.4199,64,05/03/05
+Back to Indraprastha,Eliminate Jarasandha,Varanasi,,25.38029175,82.9388210881,65,04/04/05
+Back to Indraprastha,Eliminate Jarasandha,Kaushambi,,25.54308595,81.4486595429,66,04/05/05
+Back to Indraprastha,Eliminate Jarasandha,Mathura,,27.60477375,77.5829471618,67,03/06/05
+Indraprastha,Eliminate Jarasandha,New Delhi,,28.6138967,77.2159562,68,03/07/05
+Indraprastha,Rajasuya campaign,New Delhi,,28.6138967,77.2159562,69,02/08/05
+Pragjyotish,Rajasuya campaign,,,,,70,01/09/05
+Uluk,Rajasuya campaign,,,,,71,01/10/05
+Northern Uluk,Rajasuya campaign,,,,,72,31/10/05
+Northern countries,Rajasuya campaign,Panipat,,29.3281619,76.8911770826,73,30/11/05
+Northern countries,Rajasuya campaign,Kurukshetra,,30.0547145,76.8033606887,74,30/12/05
+Northern countries,Rajasuya campaign,Chandigarh,,30.7351539,76.7705033208,75,29/01/06
+Northern countries,Rajasuya campaign,Ludhiana,,30.79197145,75.8929202567,76,28/02/06
+Northern countries,Rajasuya campaign,Jalandhar,,31.29694945,75.5592634064,77,30/03/06
+Northern countries,Rajasuya campaign,Hoshiarpur,,31.606205,75.8497456155,78,29/04/06
+Devaprastha,Rajasuya campaign,,,,,79,29/05/06
+Trigart,Rajasuya campaign,Kangra,,32.07960645,76.2538388379,80,28/06/06
+Northern countries,,Pathankot,,32.2692452,75.6528858,81,28/07/06
+Northern countries,,Kathua,,32.56442085,75.6169041278,82,27/08/06
+Northern countries,,Udhampur,,33.10922385,75.4258671949,83,26/09/06
+Northern countries,,Anantnag,,33.8727954,75.3875273425,84,26/10/06
+Kashmir,Rajasuya campaign,Srinagar,,34.0747444,74.8204443,85,25/11/06
+Darav,Rajasuya campaign,,,,,86,25/12/06
+Kokonad,Rajasuya campaign,,,,,87,24/01/07
+Avisari,Rajasuya campaign,,,,,88,23/02/07
+Urag,Rajasuya campaign,,,,,89,25/03/07
+Singhapur,Rajasuya campaign,,,,,90,24/04/07
+Suhma,Rajasuya campaign,,,,,91,24/05/07
+Sumala,Rajasuya campaign,,,,,92,23/06/07
+Northern countries,,Baramulla,,34.2086903,74.343498,93,23/07/07
+Northern countries,,Abbottabad,,34.1436589,73.2139122,94,22/08/07
+Northern countries,,Nawshera,,,,95,21/09/07
+Northern countries,,Peshawar,,34.0123846,71.5787458,96,21/10/07
+Northern countries,,Jalalabad,,34.430195,70.460128,97,20/11/07
+Kamboj,Rajasuya campaign,Kabul,,34.5197058,69.1624302,98,20/12/07
+Northern countries,,Charikar,,35.0131732,69.1741618,99,19/01/08
+Northern countries,,Pol-e-khomri,,35.9403928,68.7166369,100,18/02/08
+Northern countries,,Aybak,,36.2621554,68.0344463,101,19/03/08
+Valhik,Rajasuya campaign,Balkh,Afghanistan,36.7581256,66.8980826,102,18/04/08
+Northern countries,,Aybak,,36.2621554,68.0344463,103,18/05/08
+Northern countries,,Pol-e-khomri,,35.9403928,68.7166369,104,17/06/08
+Northern countries,,Charikar,,35.0131732,69.1741618,105,17/07/08
+Northern countries,,Kabul,,34.5197058,69.1624302,106,16/08/08
+Northern countries,,Jalalabad,,34.430195,70.460128,107,15/09/08
+Northern countries,,Chitral,,35.8507967,71.7903117,108,15/10/08
+Darada,Rajasuya campaign,Gilgit,,35.9208102,74.314044,109,14/11/08
+Kimpurush,Rajasuya campaign,,,,,110,14/12/08
+Hartaka,Rajasuya campaign,,ruled by the Guhaks,,,111,13/01/09
+Towards Manas lake,,Jaglot,,35.6883261,74.6258433,112,12/02/09
+Towards Manas lake,,Bunji,,35.6527032,74.6287283,113,14/03/09
+Towards Manas lake,,Kaghan,,34.7806262,73.5241551,114,13/04/09
+Towards Manas lake,,Garhi Habibullah,,34.4006901,73.378452,115,13/05/09
+Towards Manas lake,,Baramulla,,34.2086903,74.343498,116,12/06/09
+Towards Manas lake,,Srinagar,,34.0747444,74.8204443,117,12/07/09
+Towards Manas lake,,Anantnag,,33.8727954,75.3875273425,118,11/08/09
+Towards Manas lake,,Udhampur,,33.10922385,75.4258671949,119,10/09/09
+Towards Manas lake,,Pathankot,,32.2692452,75.6528858,120,10/10/09
+Towards Manas lake,,Kangra,,32.07960645,76.2538388379,121,09/11/09
+Towards Manas lake,,Mandi,,31.6451913,76.995294743,122,09/12/09
+Towards Manas lake,,Shimla,,31.24445,77.7006251484,123,08/01/10
+Towards Manas lake,,Uttarkashi,,30.966485,78.6289831197,124,07/02/10
+Towards Manas lake,,Kedarnath,,30.7828215,79.0792132,125,09/03/10
+Towards Manas lake,,Badrinath,,30.7423302,79.4930256,126,08/04/10
+Manas lake,Rajasuya campaign,Manasarovar,"Mapam Yumtso, Tibet, China",30.6735031,81.483023641,127,08/05/10
+Gandharv country,Rajasuya campaign,,,,,128,07/06/10
+North Harivarsha,Rajasuya campaign,,of the Northern Kurus,,,129,07/07/10
+Back to Indraprastha,Rajasuya campaign,,,,,130,06/08/10
+Back to Indraprastha,,Burang,,30.629075,81.3456026,131,05/09/10
+Back to Indraprastha,,Huti,,29.9161791,80.5832062704,132,05/10/10
+Back to Indraprastha,,Dharchula,,29.8491135,80.5414711,133,04/11/10
+Back to Indraprastha,,Pithoragarh,,30.12666775,80.4761260009,134,04/12/10
+Back to Indraprastha,,Almora,,29.70950165,79.4164457704,135,03/01/11
+Back to Indraprastha,,Nainital,,29.3920381,79.4555358,136,02/02/11
+Back to Indraprastha,,Ramnagar,,27.58385875,83.6983038731,137,04/03/11
+Back to Indraprastha,,Bijnor,,29.4122351,78.46937818,138,03/04/11
+Back to Indraprastha,,Meerut,,28.916667,77.683333,139,03/05/11
+Indraprastha,Rajasuya campaign,New Delhi,,28.6138967,77.2159562,140,02/06/11
+Indraprastha,Dice exile,New Delhi,,28.6138967,77.2159562,141,02/07/11
+Kurukshetra,Dice exile,Kurukshetra,,30.0547145,76.8033606887,142,01/08/11
+Kamyak forest,Dice exile,Jodhpur,,26.2989301,73.0334001,143,31/08/11
+Dwaita forest,Dice exile,Bikaner,,28.1201648,72.7864640163,144,30/09/11
+Himvat,Dice exile,Chamoli,Hemkund Sahib,30.51589035,79.6031343374,145,30/10/11
+Gandhamadan,Dice exile,Badrinath,,30.7423302,79.4930256,146,29/11/11
+Indrakeel,Dice exile,Gangtok,Sikkim old name = Indrakeel,27.329046,88.6122673,147,29/12/11
+Gandhamadan,Dice exile,Badrinath,,30.7423302,79.4930256,148,28/01/12
+Yamuna mountains,Dice exile,Yamunotri,,31.0006774,78.4629714,149,27/02/12
+Dwaita forest,Dice exile,Bikaner,,28.1201648,72.7864640163,150,28/03/12
+Virat,Dice exile,Jaipur,,26.9161293,75.8204056,151,27/04/12
+Hastinapur,Ashwamedh campaign,Hastinapur,,29.1539372,77.9898759,152,27/05/12
+Trigarta,Ashwamedh campaign,Kangra,capital: Prasthala (Jalandhar),32.07960645,76.2538388379,153,26/06/12
+Pragjyotish,Ashwamedh campaign,,,,,154,26/07/12
+Sindhu,Ashwamedh campaign,Mithankot,,28.9589139,70.3654047,155,25/08/12
+Manipur,Ashwamedh campaign,Kendrapara,,20.5042089,86.4159937,156,24/09/12
+Rajgriha,Ashwamedh campaign,Rajgir,,25.0306,85.4199,157,24/10/12
+Banga,Ashwamedh campaign,Malda,,25.0057449,88.1398483,158,23/11/12
+Pundra,Ashwamedh campaign,Purnia,,26,87.5,159,23/12/12
+Kosala,Ashwamedh campaign,Bilaspur,Chhattisgarh (Dakshin Kosal),22.39558325,81.686986283,160,22/01/13
+Chedi,Ashwamedh campaign,Chhatarpur,Sukti (capital). Chedi = Bundelkhand,24.75966685,79.6698301912,161,21/02/13
+Kashi,Ashwamedh campaign,Varanasi,,25.38029175,82.9388210881,162,23/03/13
+Anga,Ashwamedh campaign,Begusarai,,25.5,86.25,163,22/04/13
+Kosala,Ashwamedh campaign,Sravasti,,27.5083429,82.0263569,164,22/05/13
+Dasarna,Ashwamedh campaign,Panna,Central India,24.45348,80.1408235462,165,21/06/13
+Nishad,Ashwamedh campaign,Tikamgarh,Vindhya region,25.000067,78.9817021396,166,21/07/13
+Wandering horse,Ashwamedh campaign,Sagar,,23.8125616,78.752483066,167,20/08/13
+Wandering horse,Ashwamedh campaign,Nagpur,,21.1500964,79.0127048991,168,19/09/13
+Wandering horse,Ashwamedh campaign,Hyderabad,,17.3616227,78.4747305,169,19/10/13
+Dravid,Ashwamedh campaign,Nellore,,14.4493717,79.9873763,170,18/11/13
+Wandering horse,Ashwamedh campaign,Ongole,,15.5058714,80.0499454,171,18/12/13
+Wandering horse,Ashwamedh campaign,,,,,172,17/01/14
+Andhra,Ashwamedh campaign,Guntur,,16.416667,80.25,173,16/02/14
+Mahishak,Ashwamedh campaign,,,,,174,18/03/14
+Kolwa hill tribe,Ashwamedh campaign,,,,,175,17/04/14
+Surashtra,Ashwamedh campaign,,,,,176,17/05/14
+Gokarna,Ashwamedh campaign,Nizampatnam,"Guntur, Andhra Pradesh",15.8828715,80.6390477,177,16/06/14
+Wandering horse,Ashwamedh campaign,Vijaywada,,,,178,16/07/14
+Wandering horse,Ashwamedh campaign,Latur,,18.3517551,76.753897146,179,15/08/14
+Wandering horse,Ashwamedh campaign,Nashik,,20.2217236,74.1136047895,180,14/09/14
+Wandering horse,Ashwamedh campaign,Surat,,21.1864607,72.8081281,181,14/10/14
+Wandering horse,Ashwamedh campaign,Anand,,22.462708,72.7433566269,182,13/11/14
+Prabhas,Ashwamedh campaign,Veraval,,20.9057,70.3781,183,13/12/14
+Dwarka,Ashwamedh campaign,Dwarka,,22.2471009,68.9742446,184,12/01/15
+"Sea coast, towards the west",Ashwamedh campaign,,,,,185,11/02/15
+"Sea coast, towards the west",Ashwamedh campaign,Jamnagar,,22.4732415,70.0552244,186,13/03/15
+"Sea coast, towards the west",Ashwamedh campaign,Bhuj,,23.2472446,69.668339,187,12/04/15
+Land of five waters,Ashwamedh campaign,Karachi,,24.8667795,67.0311286,188,12/05/15
+Wandering horse,Ashwamedh campaign,Khuzdar,,27.8000135,66.6166537,189,11/06/15
+Wandering horse,Ashwamedh campaign,Mastung,,29.800043,66.8500394,190,11/07/15
+Wandering horse,Ashwamedh campaign,Quetta,,30.1898249,67.019108,191,10/08/15
+Gandhar,Ashwamedh campaign,Kandahar,,31.6257718,65.7144771,192,09/09/15
+Back to Hastinapur,Ashwamedh campaign,Quetta,,30.1898249,67.019108,193,09/10/15
+Back to Hastinapur,Ashwamedh campaign,Dera Ghazi Khan,,30.0524035,70.6516579,194,08/11/15
+Back to Hastinapur,Ashwamedh campaign,Multan,,30.197721,71.4736279,195,08/12/15
+Back to Hastinapur,Ashwamedh campaign,Bahawalpur,,29.394644,71.6638747,196,07/01/16
+Back to Hastinapur,Ashwamedh campaign,Hanumangarh,,29.37878425,74.3258026624,197,06/02/16
+Back to Hastinapur,Ashwamedh campaign,Sirsa,,29.6145013,74.8919064559,198,07/03/16
+Back to Hastinapur,Ashwamedh campaign,Hisar,,29.24319675,75.8086885741,199,06/04/16
+Hastinapur,Ashwamedh campaign,Hastinapur,,29.1539372,77.9898759,200,06/05/16
