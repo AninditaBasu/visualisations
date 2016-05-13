@@ -1,7 +1,7 @@
 # Infographics
 
 In progress: The Mahabharat project
--    (Arjun's travels)[https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/public_map]
+-    [Arjun's travels](https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/public_map)
 -    Weapon cloud
 
 Almost done projects are in the following table.
