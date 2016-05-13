@@ -8,17 +8,18 @@ Almost done projects are in the following table.
 
 |  Story| Data format | Processing | Code file | 
 |:-------- |:--------| :-----|:----|
-|[Titanic](titanic.png)  | XLS file | Worksheet added to XLS file, where data is processed with spreadsheet's inbuilt functions | No code |
-| [Earthquakes](earthquakes.png)| Tab-delimited text file file|(1) Run a code to turn the tab-delimited text file to a CSV file. (2) Add worksheets to the CSV file for data processing, and save as XLS. | `tab2csv.py`|
+|[Titanic](./images/titanic.png)  | XLS file | Worksheet added to XLS file, where data is processed with spreadsheet's inbuilt functions | No code |
+| [Earthquakes](./images/earthquakes.png)| Tab-delimited text file file|(1) Run a code to turn the tab-delimited text file to a CSV file. (2) Add worksheets to the CSV file for data processing, and save as XLS. | `tab2csv.py`|
 | [Invaders of India](https://ani-basu.cartodb.com/viz/e74ef19c-15e8-11e6-bc8b-0e3a376473ab/public_map)|CSV file, with place names | CSV file, with columns added for latitude and longitude. Used as datasheet on CartoDB| `geo_lookup.py` | 
-| [Tweet cloud](tweet_cloud.png)|JSON file of tweets pulled via Twitter's API | Extract tweet text and clean up for hashtags, punctuations, user names, and other unnecessary strings  |`tweet_cloud.py` | 
+| [Tweet cloud](./images/tweet_cloud.png)|JSON file of tweets pulled via Twitter's API | Extract tweet text and clean up for hashtags, punctuations, user names, and other unnecessary strings  |`tweet_cloud.py` | 
 
 
 ## Repository file structure
 
--    The root folder contains the infographics
+-    The root folder contains this README
 -    The `data` folder contains source data
--    The `script` folder contains the code files
+-    The `images` folder contains infographics
+-    The `script` folder contains code files
 
 ## Sources
 
