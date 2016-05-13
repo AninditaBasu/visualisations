@@ -1,5 +1,11 @@
 # Infographics
 
+In progress: The Mahabharat project
+-    (Arjun's travels)[https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/public_map]
+-    Weapon cloud
+
+Almost done projects are in the following table.
+
 |  Story| Data format | Processing | Code file | 
 |:-------- |:--------| :-----|:----|
 |[Titanic](titanic.png)  | XLS file | Worksheet added to XLS file, where data is processed with spreadsheet's inbuilt functions | No code |
@@ -7,7 +13,6 @@
 | [Invaders of India](https://ani-basu.cartodb.com/viz/e74ef19c-15e8-11e6-bc8b-0e3a376473ab/public_map)|CSV file, with place names | CSV file, with columns added for latitude and longitude. Used as datasheet on CartoDB| `geo_lookup.py` | 
 | [Tweet cloud](tweet_cloud.png)|JSON file of tweets pulled via Twitter's API | Extract tweet text and clean up for hashtags, punctuations, user names, and other unnecessary strings  |`tweet_cloud.py` | 
 
-In progress: The Mahabharat project
 
 ## Repository file structure
 
@@ -21,4 +26,5 @@ In progress: The Mahabharat project
 -    Earthquake data: [National Geophysical Data Center](www.ngdc.noaa.gov/hazard/earthqk.shtml)
 -    Invaders data: Wikipedia articles
 -    Python wordcloud library: [amueller's wordcloud library](https://github.com/amueller/word_cloud)
+-    Mahabharat: Kisarimohan Ganguly's English translation, BORI's Cultural Index, and Wikipedia
 
