@@ -34,27 +34,41 @@
   </tr>
   <tr>
     <td><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/earthquakes.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/earthquakes.png"/></a></td>
-    <td>Data was in a tab-delimited text file. Wrote a Python script to convert this file to a CSV one, and saved the CSV file as an XLS file. Then, used the spreadsheet's inbuilt functions to aggregate the numbers and draw the charts.</td>
+    <td>Data was in a tab-delimited text file. Wrote a Python script (<code>tab2csv.py</code>) to convert this file to a CSV format, and saved the CSV file as an XLS file. Then, used the spreadsheet's inbuilt functions to aggregate the numbers and draw the charts.</td>
   </tr>
   <tr>
     <td><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/tweet_cloud.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/tweet_cloud.png"/></a></td>
-    <td>Data was in the form of JSON objects that the Twitter API sends back. Wrote a Python script to extract the tweet text, clean up the text for punctutaions, user names, and irrelevant words, and create the word cloud.</td>
+    <td>Data was in the form of JSON objects that the Twitter API sends back. Wrote a Python script (<code>tweet_cloud.py</code>) to extract the tweet text, clean up the text for punctutaions, user names, and irrelevant words, and create the word cloud.</td>
   </tr>
 </table>
 
 <h3>
-<a id="interactive_maps" class="anchor" href="#interactive_maps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive maps</h3>
+<a id="interactive_maps" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive maps</h3>
 
-<p>Data was in Wikipedia articles. Created a CSV file of dates and place names, wrote a Python script to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a layered bubble map.<iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/e74ef19c-15e8-11e6-bc8b-0e3a376473ab/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
+<p>Data was in Wikipedia articles. Created a CSV file of dates and place names, wrote a Python script (<code>geo_lookup.py</code>) to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a layered bubble map.<iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/e74ef19c-15e8-11e6-bc8b-0e3a376473ab/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
 
-<p>Data was in books. Created a CSV file of place names, used my Python script to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a torque map.<iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
+<p>Data was in books. Created a CSV file of place names, used my Python script (<code>geo_lookup.py</code>) to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a torque map.<iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
 
 <h3>
-<a id="interactive_images" class="anchor" href="#interactive_images" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive images</h3>
+<a id="interactive_images" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive images</h3>
 
-<p>The interaction does not work on GitHub pages like this page that you are reading now but to give you an idea of what they look like, here are the static images. To see the interactivity, download the repository and look at <code>mb_weapons.html</code>.</p>
-<p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/mb_marriages.png" border = "1"/></p>
-<p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/mb_weapons.png border = "1"/></p>
+<p>Data was saved as a CSV file and the images were made with <code>d3.js</code>. The interaction does not work on GitHub pages like this page that you are reading now but to give you an idea of what they look like, here are the static images. To see the interactivity, look at <code>mb_weapons.html</code> after you download the repository.</p>
+<p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/mb_marriages.png"/></p>
+<p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/mb_weapons.png"/></p>
+
+<h3><a id="references" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h3>
+<ul>
+  <li>Titanic data: <a href = "http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets" target = "_blank">Vanderbilt University's Department of Biostatistics's data set</a></li>
+  <li>Earthquake data: <a href = "www.ngdc.noaa.gov/hazard/earthqk.shtml" target = "_blank">[National Geophysical Data Center</a></li>
+  <li>Python libraries: <code>json, </code><code>csv</code>, <code>geopy</code>, and <code>wordcloud</code></li>
+  <li>Sankey diagrams: 
+  <ul>
+    <li><a href = "https://gist.github.com/d3noob/c2637e28b79fb3bfea13" target = "_blank">Code for a simple diagram</a> and an <a href = "http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html" target = "_blank">explanation thereof</a></li>
+    <li><a href = "https://github.com/mohans-ca/Who-Said-What-Sankey) and [explanation of the code" target = "_blank">Code for CSV to JSON</a> and an <a href = "https://www.crowdanalytix.com/communityBlog/who-said-what---d3-sankey-chart-tutorial-using-twitter-data" target = "_blank">explanation thereof</a></li>
+    <li>Diagrams exported to the PNG format through <a href = "http://www.sankeymatic.com/build/" target = "_blank">sankeyMATIC</a></li>
+  </ul>
+  </li>
+</ul>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/AninditaBasu/visualisations">Visualisations</a> is maintained by <a href="https://github.com/AninditaBasu">AninditaBasu</a>.</span>
