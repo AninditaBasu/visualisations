@@ -14,7 +14,7 @@ Simple diagrams with minimal coding.
 ## In-progress diagrams: the Mahabharat project
 
 -    [Arjun's travels](https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/public_map)
--    [Weapon diagram](mb_weapons.html)
+-    [Weapon diagram](./images/mb_weapons.png)
 
 ## Sources
 
@@ -23,4 +23,4 @@ Simple diagrams with minimal coding.
 -    Invaders data: Wikipedia articles
 -    Python wordcloud library: [amueller's wordcloud library](https://github.com/amueller/word_cloud)
 -    Mahabharat data: Kisarimohan Ganguly's English translation, BORI's Cultural Index, and Wikipedia
--    Sankey diagram: (1) [code for a simple diagram](https://gist.github.com/d3noob/c2637e28b79fb3bfea13) and [explanation of the code](http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html) (2) [code for CSV to JSON](https://github.com/mohans-ca/Who-Said-What-Sankey) and [explanation of the code](https://www.crowdanalytix.com/communityBlog/who-said-what---d3-sankey-chart-tutorial-using-twitter-data)
+-    Sankey diagram: (1) [code for a simple diagram](https://gist.github.com/d3noob/c2637e28b79fb3bfea13) and [explanation of the code](http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html) (2) [code for CSV to JSON](https://github.com/mohans-ca/Who-Said-What-Sankey) and [explanation of the code](https://www.crowdanalytix.com/communityBlog/who-said-what---d3-sankey-chart-tutorial-using-twitter-data) (3) Diagram saved as a PNG file through [sankeyMATIC](http://www.sankeymatic.com/build/)
