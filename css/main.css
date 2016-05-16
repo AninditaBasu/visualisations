@@ -1,9 +1,9 @@
 body {
-  padding: 0;
+  padding-left: 15px;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 120%;
   color: #606c71; }
   
 p, div {
@@ -27,6 +27,7 @@ h1,h2, h3 {
 	display: block;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 5px;
+	padding-left: 15px;
 }
 
 h1 {
@@ -44,6 +45,8 @@ h3 {
 h4, h5, h6 {
 	font-family: Arvo, Monaco, serif;
 	font-weight: 700;
+	padding-left: 15px;
+	padding-bottom: 5px;
 }
 
 
