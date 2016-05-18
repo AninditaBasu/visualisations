@@ -20,6 +20,13 @@ See [the Mahabharat project](https://rawgit.com/AninditaBasu/visualisations/mast
 -    Titanic data: [Vanderbilt University's Department of Biostatistics's data set](http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets)
 -    Earthquake data: [National Geophysical Data Center](www.ngdc.noaa.gov/hazard/earthqk.shtml)
 -    Invaders data: Wikipedia articles
--    Python wordcloud library: [amueller's wordcloud library](https://github.com/amueller/word_cloud)
--    Mahabharat data: Kisarimohan Ganguly's English translation, BORI's Cultural Index, and Wikipedia
--    Sankey diagram: (1) [code for a simple diagram](https://gist.github.com/d3noob/c2637e28b79fb3bfea13) and [explanation of the code](http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html) (2) [code for CSV to JSON](https://github.com/mohans-ca/Who-Said-What-Sankey) and [explanation of the code](https://www.crowdanalytix.com/communityBlog/who-said-what---d3-sankey-chart-tutorial-using-twitter-data) (3) Diagram saved as a PNG file through [sankeyMATIC](http://www.sankeymatic.com/build/)
+-    Python libraries: `json`, `csv`, `geopy`, `wordcloud`, `matplotlib`, `Pillow`
+-    Mahabharat data:
+    - Kisarimohan Ganguly's English translation
+    - BORI's Cultural Index
+    - Apte's Sanskrit dictionary
+    - a few more publications
+-    Sankey diagram:
+    -    [code for a simple diagram](https://gist.github.com/d3noob/c2637e28b79fb3bfea13) and [explanation of the code](http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html)
+    -    [code for CSV to JSON](https://github.com/mohans-ca/Who-Said-What-Sankey) and [explanation of the code](https://www.crowdanalytix.com/communityBlog/who-said-what---d3-sankey-chart-tutorial-using-twitter-data)
+    -    Diagram saved as a PNG file through [sankeyMATIC](http://www.sankeymatic.com/build/)
