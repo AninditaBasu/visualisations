@@ -11,10 +11,9 @@ Simple diagrams with minimal coding.
 | [Invaders of India](https://ani-basu.cartodb.com/viz/e74ef19c-15e8-11e6-bc8b-0e3a376473ab/public_map)|CSV file, with place names | CSV file, with columns added for latitude and longitude. Used as datasheet on CartoDB| `geo_lookup.py` | 
 | [Tweet cloud](./images/tweet_cloud.png)|JSON file of tweets pulled via Twitter's API | Extract tweet text and clean up for hashtags, punctuations, user names, and other unnecessary strings  |`tweet_cloud.py` | 
 
-## In-progress diagrams: the Mahabharat project
+## In-progress diagrams
 
--    [Arjun's travels](https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/public_map)
--    [Weapon diagram](./images/mb_weapons.png)
+See [the Mahabharat project](https://rawgit.com/AninditaBasu/visualisations/master/mb_weapons.html)
 
 ## Sources
 
