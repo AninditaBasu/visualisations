@@ -1,94 +1,209 @@
 <!DOCTYPE html>
+
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Visualisations by Anindita Basu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/extra.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Visualisations</h1>
-      <h2 class="project-tagline">Data to infographics with minimal coding</h2>
-      <a href="https://github.com/AninditaBasu/visualisations" class="btn">View on GitHub</a>
-      <a href="https://github.com/AninditaBasu/visualisations/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/AninditaBasu/visualisations/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
 
-    <section class="main-content">
-      <hr/>
-      <p style="text-align:center">
-        <a href = "#static_images" class = "btndark">Static images</a>
-        <a href = "#interactive_maps" class = "btndark">Interactive maps</a>
-        <a href = "#interactive_images" class = "btndark">Interactive images</a>
-      </p>
-      <hr/>
+<head>
 
-<h2><a id="static_images" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Static images</h2>
-<ul>
-  <li><a href = "#titanic">Titanic casualties</a></li>
-  <li><a href = "#earthquakes">Earthquakes</a></li>
-  <li><a href = "#tweets">Tweet cloud</a></li>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<title>Visualisations by Anindita Basu</title>
+	
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="container">
+
+<div class="page-header">
+<h1>Visualisations</h1>
+<h2><small>Storifying data. With minimal coding.</small></h2>
+
+</div>  <!-- ./page-header -->
+
+<ul class="nav nav-pills">
+    <li class = "active"><a href = "#titanic">Titanic deaths</a></li>
+	<li><a href = "#quakes">Earthquakes</a></li>
+	<li><a href = "#tweets">Twitter chatter</a></li>
+	<li><a href = "#invasions">Invaders of India</a></li>
+    <li><a href = "#rv">Rig Veda</a></li>
+    <li><a href = "#mb">Mahabharat</a></li>    	
 </ul>
-
-<h3 id = "titanic">Titanic casualties</h3>
-
-<p><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/titanic.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/titanic.png"/></a></p>
-<p>Data was in an XLS file. The spreadsheet's inbuilt functions were used for aggregating the numbers and drawing the graph.</p>
-<h3 id = "earthquakes">Earthquakes</h3>
-
-<p><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/earthquakes.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/earthquakes.png"/></a></p>
-<p>Data was in a tab-delimited text file, which was converted to an XLS file with a Python script (<code>tab2csv.py</code>). The spreadsheet's inbuilt functions were used for aggregating the numbers and drawing the graph.</p>
-
-<h3 id = "tweets">Tweet cloud</h3>
-
-<p><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/tweet_cloud.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/tweet_cloud.png"/></a></p>
-
-<p>Data was in the form of JSON objects that the Twitter API sends back. The tweet text was extracted, cleaned up for punctutaions, user names, and irrelevant words, and used to generate the word cloud. Code is in <code>tweet_cloud.py</code>.</p>
-
-<h2>
-<a id="interactive_maps" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive maps</h2>
-
-<p>Data was in Wikipedia articles. Created a CSV file of dates and place names, wrote a Python script (<code>geo_lookup.py</code>) to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a layered bubble map.<iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/e74ef19c-15e8-11e6-bc8b-0e3a376473ab/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
-
-<p>Data was in books. Created a CSV file of place names, used my Python script (<code>geo_lookup.py</code>) to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a torque map.<iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
-
-<h2>
-<a id="interactive_images" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive images</h2>
-
-<p>Data was saved as a CSV file and used for a <code>d3.js</code> sankey diagram. An example (static, though) image is this one, that shows the marriage links for some of the clans of the Mahabharat:</p>
-<p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/mb_marriages.png"/>.</p>
-
-<p>To see an interactive image of which weapons the warriors were armed with before the Mahabharat war, see <a href = "https://rawgit.com/AninditaBasu/visualisations/master/mb_weapons.html" target = "_blank">Weapons and warriors</a>.</p>
 
 <hr/>
 
-<h2><a id="references" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h2>
-<ul>
+<div class = "container-fluid">
+
+<div id = "titanic">
+
+<h3>Titanic deaths</h3>
+
+<p>How many people died that night? Which social class did they belong to? Did more women survive than men?</p>
+
+<br/>
+
+<p><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/titanic.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/titanic.png"/></a></p>
+
+<p class = "small text-info">Data was in a <code>.xls</code> file. The spreadsheet's inbuilt functions were used for aggregating the numbers and drawing the graph.</p>
+
+</div><!-- ./titanic -->
+
+<hr/>
+
+<div id = "quakes">
+
+<h3>Earthquakes</h3>
+
+<p>When did the first recorded earthquake occur? Where? Which one was the deadliest? Where do most earthquakes happen? Are there earthquakes in the Arctic Circle?</p>
+
+<br/>
+
+<p><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/earthquakes.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/earthquakes.png"/></a></p>
+
+<p class = "small text-info">Data was in a tab-delimited text file, which was converted to a <code>.xls</code> with a Python script (<code>tab2csv.py</code>). The spreadsheet's inbuilt functions were then used for aggregating the numbers and drawing the graph.</p>
+
+</div><!-- ./quakes -->
+
+<hr/>
+
+<div id = "tweets">
+
+<h3>Twitter chatter</h3>
+
+<p>What are the people on my timeline talking about?</p>
+
+<br/>
+
+<p><a href = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/tweet_cloud.png" target = "_blank"><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/tweet_cloud.png"/></a></p>
+
+<p class = "small text-info">Data was in the form of <code>JSON</code> objects that the Twitter API sends back when you track a user, hashtag, or keywords. The tweet text was extracted from the <code>JSON</code> object, cleaned up for punctutations and irrelevant words, and then used to generate the word cloud. Code is in <code>tweet_cloud.py</code>.</p>
+
+</div><!-- ./tweets -->
+
+<hr/>
+
+<div id= "invasions">
+
+<h3>Invaders of India</h3>
+
+<p>Who all invaded India back then? Which places did they conquer? How far into India did they penetrate?</p>
+
+<br/>
+
+<p class = "small text-info">This map is interactive. You can toggle the visible layers (see dropdown at top left) and zoom in or out (see buttons at top right). To see details about a plot point, move the cursor over that point.</p>
+
+<p><iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/e74ef19c-15e8-11e6-bc8b-0e3a376473ab/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
+
+<p class = "small text-info">Data is in history books. Created a CSV file of dates and place names, used a Python script (<code>geo_lookup.py</code>) to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a layered bubble map.</p>
+
+</div><!-- ./invasions -->
+
+<hr/>
+
+<div id = "rv">
+
+<h3>The Rig Veda</h3>
+
+<p>Who all were the poets who sang these hymns? Who among them sang the most songs?</p>
+
+<br/>
+
+<p><img src = "./images/rv_1.jpg"/></p>
+<p class = "small text-info">Data is in books. Created a CSV file...</p>
+
+<br/>
+
+<p>To whom is the maximum number of songs addressed? Who all find just a passing mention?</p>
+
+<br/>
+
+<p>&nbsp; --- </p>
+
+<p>Are there any pronounced affiliations between poets and the gods that they sing of?</p>
+
+<br/>
+
+<p>&nbsp; --- </p>
+
+</div><!-- ./rv -->
+
+<hr/>
+
+<div id = "mb">
+
+<h3>The Mahabharat</h3>
+
+<p>Where all did Arjun wander during his several journeys?</p>
+
+<br/>
+
+<p><iframe width="100%" height="520" frameborder="0" src="https://ani-basu.cartodb.com/viz/150d1be0-1945-11e6-82c4-0e98b61680bf/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>
+
+<p class = "small text-info">Data is in books. Created a CSV file of place names, used my Python script (<code>geo_lookup.py</code>) to add the latitude and longitude values to these places, and then used the updated CSV file as an input on CartoDB.com to create a torque map.</p>
+
+<p>How were the various clans linked through marriages?</p>
+
+<br/>
+
+<p>&nbsp; --- </p>
+
+<!--<p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/mb_marriages.png"/>.</p>-->
+
+<!--<p class = "small">Data is in books. Created a CSV file and used it for a <code>d3.js</code> sankey diagram.</p>-->
+
+<br/>
+
+<p>Who was the most heavily armed?</p>
+
+<br/>
+
+<p>&nbsp; --- </p>
+
+<!--<p>To see an interactive image of which weapons the warriors were armed with before the Mahabharat war, see <a href = "https://rawgit.com/AninditaBasu/visualisations/master/mb_weapons.html" target = "_blank">Weapons and warriors</a>.</p>-->
+
+</div><!-- ./mb -->
+
+<hr/>
+
+<h6>References</h6>
+
+<div is = "references">
+
+<ul class = "small">
   <li>Titanic data: <a href = "http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets" target = "_blank">Vanderbilt University's Department of Biostatistics's data set</a></li>
-  <li>Earthquake data: <a href = "www.ngdc.noaa.gov/hazard/earthqk.shtml" target = "_blank">[National Geophysical Data Center</a></li>
-  <li>Python libraries: <code>json, </code><code>csv</code>, <code>geopy</code>, and <code>wordcloud</code></li>
-  <li>Sankey diagrams: 
+  <li>Earthquake data: <a href = "www.ngdc.noaa.gov/hazard/earthqk.shtml" target = "_blank">National Geophysical Data Center</a></li>
+  <!--<li>Python libraries: <code>json, </code><code>csv</code>, <code>geopy</code>, and <code>wordcloud</code></li>-->
+<!--  <li>Sankey diagrams: 
   <ul>
     <li><a href = "https://gist.github.com/d3noob/c2637e28b79fb3bfea13" target = "_blank">Code for a simple diagram</a> and an <a href = "http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html" target = "_blank">explanation thereof</a></li>
     <li><a href = "https://github.com/mohans-ca/Who-Said-What-Sankey) and [explanation of the code" target = "_blank">Code for CSV to JSON</a> and an <a href = "https://www.crowdanalytix.com/communityBlog/who-said-what---d3-sankey-chart-tutorial-using-twitter-data" target = "_blank">explanation thereof</a></li>
     <li>Diagrams exported to the PNG format through <a href = "http://www.sankeymatic.com/build/" target = "_blank">sankeyMATIC</a></li>
   </ul>
-  </li>
+  </li>-->
 </ul>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/AninditaBasu/visualisations">Visualisations</a> is maintained by <a href="https://github.com/AninditaBasu">AninditaBasu</a>.</span>
+<p class = "small"><a href="https://github.com/AninditaBasu/visualisations"  target = "_blank">Visualisations</a> is maintained by <a href="http://aninditabasu.github.io/index.html" target = "_blank">AninditaBasu</a>.</p>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+<hr/>
 
-    </section>
+</div><!-- ./references -->
 
+</div><!-- ./container-fluid -->
+
+</div><!-- ./wrapper -->
+
+</div><!-- ./container -->
   
-  </body>
+</body>
+
 </html>
